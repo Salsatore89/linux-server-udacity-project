@@ -45,7 +45,9 @@ In order for your project to be reviewed, the grader needs to be able to log in 
 ssh -i ~/.ssh/grader_key -p 2200 grader@35.177.166.212
 ```
 
-Prepare to deploy your project.
+(The passphrase is: udacity)
+
+## Prepare to deploy your project.
 9. Configure the local timezone to UTC. ✅
 
 ![](img/utc.png)
