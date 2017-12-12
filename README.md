@@ -23,21 +23,21 @@ ssh -i ~/.ssh/LinuxServerProjectUdacity.rsa -p 2200 ubuntu@35.177.166.212
 
 5. Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123). ✅ 
 
-![](https://photos-6.dropbox.com/t/2/AACEdmMxbewdB14wVgM5hMYHHn-1KUcwm6GxHVNw3pNo_g/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-12%20a%20las%2019.16.11.png/EMXso_YCGN8EIAcoBw/n2XNpNuf6AYiO_gVYHVniR9EaKJhCek_0MTd8o91gcc?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/ufw.png)
 
 ## Give grader access.
 In order for your project to be reviewed, the grader needs to be able to log in to your server.
 
 6. Create a new user account named grader. ✅ 
 
-![](https://photos-1.dropbox.com/t/2/AAACVBbSf8sFC-e3BxccdKmf-Vxe3mqTt0tdrjHcyxNrHg/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-11%20a%20las%2020.01.09.png/EMXso_YCGOUEIAcoBw/Z01tIxWu10uun6z9ORixicjkBGzzME3BXe0FgLbn2ic?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/add-user-grader.png)
 
 
 7. Give grader the permission to sudo. ✅ 
 
-![](https://photos-3.dropbox.com/t/2/AACceJNx6LEr8ZfoE8W4QvyxhSYXQ1xfHqBzK1ZjtMPy2Q/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-11%20a%20las%2020.04.57.png/EMXso_YCGOkEIAcoBw/eKqogPDSSNHr0l26lXJCP64uLK9P5qjUBLPPhLioUU8?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/add-user-grader2.png)
 
-![](https://photos-3.dropbox.com/t/2/AAC8jzVgW_Jd8w_2EXruV8beBP_J2XJY0VCoR7OvZwoIog/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-12%20a%20las%2019.41.58.png/EMXso_YCGOMEIAcoBw/1E5Ktfbexz_ZLEpld3Msh7YNthT5M8VqZ3WD75iDZuI?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/grader-sudo.png)
 
 8. Create an SSH key pair for grader using the ssh-keygen tool. ✅ 
 
@@ -48,7 +48,7 @@ ssh -i ~/.ssh/grader_key -p 2200 grader@35.177.166.212
 Prepare to deploy your project.
 9. Configure the local timezone to UTC. ✅
 
-![](https://photos-1.dropbox.com/t/2/AADZ4zmEjmIwWvgy63FhGJTn_NHtueH3g53Mz9G4PBbd3A/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-12%20a%20las%2019.45.30.png/EMXso_YCGOQEIAcoBw/etC7-XtkPQXF86CpyjzF7VAMzcQJtqQmW56IwVWi1FA?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/utc.png)
 
 10. Install and configure Apache to serve a Python mod_wsgi application. ✅ 
 
