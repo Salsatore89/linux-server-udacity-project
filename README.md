@@ -61,15 +61,15 @@ sudo apt-get install apache2
 Do not allow remote connections ✅ 
 
 
-![](https://photos-6.dropbox.com/t/2/AAAwk8wJNTGtqwxTcFQkfzzpKgL1HhPQG6e1HOjGURVm4g/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-12%20a%20las%2019.49.59.png/EMXso_YCGOYEIAcoBw/zunfQrfytnGV2zmmmpfVBe0h3GZHlUgj_KibvtG-AAA?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/database.png)
 
 Create a new database user named catalog that has limited permissions to your catalog application database. ✅ 
 
-![](https://photos-2.dropbox.com/t/2/AACt3qkdWcFDoN1Qmb7HvPpa3Zm1IVPckzsRPlzo19jjQQ/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-12%20a%20las%2019.57.46.png/EMXso_YCGOcEIAcoBw/Z0LXGWs8RNDhYnjcjBLRcjfOGf2aLPyBu3Hw1HEf_Pc?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/catalog-db.png)
 
 12. Install git. ✅ 
 
-![](https://photos-4.dropbox.com/t/2/AACB-ZSZfngJPfiq-jsYf_naezXFnWTCSIocgaxD8jNmUg/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-12%20a%20las%2020.00.03.png/EMXso_YCGOgEIAcoBw/vuUG4dKDE9ynbXQZVp6FJzcN95ldpOBuIJjpsAO7PlI?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/install-git.png)
 
 ## Deploy the Item Catalog project. ❌ 
 
