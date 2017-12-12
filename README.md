@@ -13,13 +13,13 @@ ssh -i ~/.ssh/LinuxServerProjectUdacity.rsa -p 2200 ubuntu@35.177.166.212
 ## Secure your server.
 3. Update all currently installed packages. ✅ 
 
-![](https://photos-1.dropbox.com/t/2/AADkGbaAJ_uzmETEmvf3Qs4tCfNRzgMlZJKb2-7VCEJUsQ/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-12%20a%20las%2019.33.20.png/EMXso_YCGOEEIAcoBw/KLT-4eBLW3mmfFNneR5vrxiKuvDtmGaMtBkjT3nOFRw?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/update.png)
 
-![](https://photos-2.dropbox.com/t/2/AABDdb3A3iuh9IML059cxZFe0mMuU3ScPIkoy7BeOb2wnA/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-12%20a%20las%2019.58.39.png/EMXso_YCGOoEIAcoBw/hNTxJZEzILH4hoMCSrhGLyQ6ml2z_yzW2WzD8U99dQ0?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/upgrade.png)
 
 4. Change the SSH port from 22 to 2200. Make sure to configure the Lightsail firewall to allow it. ✅ 
 
-![](https://photos-2.dropbox.com/t/2/AABdktKskPt2Nr47NYpWU_uN-Dfy9mk526dth5IyXhilJg/12/369982627/png/32x32/1/_/1/2/Captura%20de%20pantalla%202017-12-12%20a%20las%2019.38.37.png/EMXso_YCGOIEIAcoBw/-cTgy88te2xUpifQWxHuNdyc-_ZTbGTA3hd4hptpTMk?preserve_transparency=1&size=1280x960&size_mode=3)
+![](img/port220.png)
 
 5. Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123). ✅ 
 
