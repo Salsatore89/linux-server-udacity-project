@@ -2,7 +2,7 @@
 ## Get your server.
 1. Start a new Ubuntu Linux server instance on Amazon Lightsail. There are full details on setting up your Lightsail instance on the next page.c
 
-![](https://www.dropbox.com/s/tztjdiynbljweyw/Captura%20de%20pantalla%202017-12-12%20a%20las%2019.58.39.png?dl=0)
+![](img/instance.png)
 
 2. Follow the instructions provided to SSH into your server. ✅ 
    
