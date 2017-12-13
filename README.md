@@ -2,12 +2,12 @@
 ## Get your server.
 1. Start a new Ubuntu Linux server instance on Amazon Lightsail. There are full details on setting up your Lightsail instance on the next page.c
 
-![](img/instance.png)
+![](img/instance2.png)
 
 2. Follow the instructions provided to SSH into your server. ✅ 
    
 ```sh
-ssh -i ~/.ssh/LinuxServerProjectUdacity.rsa -p 2200 ubuntu@35.177.166.212
+ssh -i ~/.ssh/lightsail.rsa -p 2200 ubuntu@18.195.254.152
 ```
 
 ## Secure your server.
