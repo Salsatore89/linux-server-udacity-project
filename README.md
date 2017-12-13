@@ -77,8 +77,9 @@ Create a new database user named catalog that has limited permissions to your ca
 (Public IP is: http://18.195.254.152// or http://ec2-18-195-254-152.eu-central-1.compute.amazonaws.com/)
 
 ## Sources
-Udacity forum: https://discussions.udacity.com/
-Udacity Linux Server Course: https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004
-Digital Ocean: https://www.digitalocean.com/community/questions/how-do-i-remove-apache2-ubuntu-default-page
-Stack Overflow: https://stackoverflow.com/
+- Udacity forum: https://discussions.udacity.com/
+- Udacity Linux Server Course: https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004
+- Digital Ocean: https://www.digitalocean.com/community/questions/how-do-i-remove-apache2-ubuntu-default-page
+                 https://www.digitalocean.com/community/questions/setting-up-ubuntu?answer=34263
+- Stack Overflow: https://stackoverflow.com/
 
