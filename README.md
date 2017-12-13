@@ -28,14 +28,12 @@ In order for your project to be reviewed, the grader needs to be able to log in 
 
 6. Create a new user account named grader. ✅ 
 
-![](img/add-user-grader.png)
+![](img/add-user.png)
 
 
 7. Give grader the permission to sudo. ✅ 
 
-![](img/add-user-grader2.png)
-
-![](img/grader-sudo.png)
+![](img/add-user2.png)
 
 8. Create an SSH key pair for grader using the ssh-keygen tool. ✅ 
 
