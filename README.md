@@ -13,9 +13,7 @@ ssh -i ~/.ssh/lightsail.rsa -p 2200 ubuntu@18.195.254.152
 ## Secure your server.
 3. Update all currently installed packages. ✅ 
 
-![](img/update.png)
-
-![](img/upgrade.png)
+![](img/update2.png)
 
 4. Change the SSH port from 22 to 2200. Make sure to configure the Lightsail firewall to allow it. ✅ 
 
