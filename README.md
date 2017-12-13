@@ -76,6 +76,25 @@ Create a new database user named catalog that has limited permissions to your ca
 14. Set it up in your server so that it functions correctly when visiting your server’s IP address in a browser. Make sure that your .git directory is not publicly accessible via a browser! ✅ 
 (Public IP is: http://18.195.254.152// or http://ec2-18-195-254-152.eu-central-1.compute.amazonaws.com/)
 
+## Dependencies installed
+
+- Python requests
+- oauth2client
+- Apache2
+- mod_wsgi
+- PostgreSQL
+- SQLAlchemy
+- Flask
+- virtualenv
+- httplib2
+- libpq-dev
+- Psycopg2
+- git
+- pip
+
+
+
+
 ## Sources
 - Udacity forum: https://discussions.udacity.com/
 - Udacity Linux Server Course: https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004
