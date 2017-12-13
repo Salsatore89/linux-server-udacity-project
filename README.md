@@ -38,7 +38,7 @@ In order for your project to be reviewed, the grader needs to be able to log in 
 8. Create an SSH key pair for grader using the ssh-keygen tool. ✅ 
 
 ```sh
-ssh -i ~/.ssh/grader_key -p 2200 grader@35.177.166.212
+ssh -i ~/.ssh/grader-key -p 2200 grader@18.195.254.152
 ```
 
 (The passphrase is: udacity)
