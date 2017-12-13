@@ -73,9 +73,9 @@ Create a new database user named catalog that has limited permissions to your ca
 
 ![](img/install-git.png)
 
-## Deploy the Item Catalog project. ❌ 
+## Deploy the Item Catalog project. ✅ 
 
 13. Clone and setup your Item Catalog project from the Github repository you created earlier in this Nanodegree program. ✅ 
 
-14. Set it up in your server so that it functions correctly when visiting your server’s IP address in a browser. Make sure that your .git directory is not publicly accessible via a browser! ❌ 
-(The public IP is: http://35.177.166.212/, but after configuring the server I only see the default Ubuntu page. I have tried several things but i can't resolve it)
+14. Set it up in your server so that it functions correctly when visiting your server’s IP address in a browser. Make sure that your .git directory is not publicly accessible via a browser! ✅ 
+(Public IP is: http://18.195.254.152// or http://ec2-18-195-254-152.eu-central-1.compute.amazonaws.com/)
