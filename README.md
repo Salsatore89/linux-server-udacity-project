@@ -23,7 +23,7 @@ ssh -i ~/.ssh/LinuxServerProjectUdacity.rsa -p 2200 ubuntu@35.177.166.212
 
 5. Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123). ✅ 
 
-![](img/ufw.png)
+![](img/ufw2.png)
 
 ## Give grader access.
 In order for your project to be reviewed, the grader needs to be able to log in to your server.
@@ -50,7 +50,7 @@ ssh -i ~/.ssh/grader_key -p 2200 grader@35.177.166.212
 ## Prepare to deploy your project.
 9. Configure the local timezone to UTC. ✅
 
-![](img/utc.png)
+![](img/utc2.png)
 
 10. Install and configure Apache to serve a Python mod_wsgi application. ✅ 
 
