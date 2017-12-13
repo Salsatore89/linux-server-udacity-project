@@ -75,3 +75,10 @@ Create a new database user named catalog that has limited permissions to your ca
 
 14. Set it up in your server so that it functions correctly when visiting your server’s IP address in a browser. Make sure that your .git directory is not publicly accessible via a browser! ✅ 
 (Public IP is: http://18.195.254.152// or http://ec2-18-195-254-152.eu-central-1.compute.amazonaws.com/)
+
+## Sources
+Udacity forum: https://discussions.udacity.com/
+Udacity Linux Server Course: https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004
+Digital Ocean: https://www.digitalocean.com/community/questions/how-do-i-remove-apache2-ubuntu-default-page
+Stack Overflow: https://stackoverflow.com/
+
