@@ -1,6 +1,6 @@
 # Linux Server Configuration - Udacity Project
 ## Get your server.
-1. Start a new Ubuntu Linux server instance on Amazon Lightsail. There are full details on setting up your Lightsail instance on the next page. ✅ 
+1. Start a new Ubuntu Linux server instance on Amazon Lightsail. There are full details on setting up your Lightsail instance on the next page. ✅  (this IP address is no longer active❗️)
 
 ![](img/instance2.png)
 
